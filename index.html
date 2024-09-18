@@ -97,7 +97,68 @@
 		<li><a href="https://www.credly.com/earner/dashboard"><img src="images\VHS PREDICTION IMAGES\Credly_Logo_Orange_10-Inch.webp" alt="Credly" style="width: 24px; height: 24px;"></a></li>
 		<li><a href="https://www.cloudskillsboost.google/public_profiles/a80da888-f065-4d71-b1e3-68284b662f30"><i class="fa fa-google"></i></a></li> <!-- Google Cloud Skills -->
 		<li><a href="https://www.hackerrank.com/profile/nkniranjankumar1"><img src="images\VHS PREDICTION IMAGES\8b9fc1fa-bb42-45c6-957b-3b6611c542f1.avif" alt="Credly" style="width: 24px; height: 24px;"></a></li>
-		<li><a href="https://www.newswire.com/news/2023-uc-berkeley-ai-summit-generative-ai-hackathon-sees-high-schoolers-22166689"><i class="fa fa-trophy"></i></a></li> <!-- Award Symbol for Recognition News -->
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover to Show Centered Full-Sized Image</title>
+  <style>
+    /* Container for the trophy icon */
+    .trophy-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Trophy icon */
+    .trophy-icon {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    /* Full-size image that appears on hover */
+    .hover-image {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed positioning for full-screen effect */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Translate to perfectly center */
+      max-width: 60%; /* Ensure the image is not too large */
+      max-height: 60%; /* Ensure the image fits within the screen */
+      z-index: 9999; /* Bring it above all other elements */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: box shadow */
+    }
+
+    /* Show image when hovering over the trophy icon */
+    .trophy-container:hover .hover-image {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Trophy icon with hoverable full-size image and link -->
+  <li>
+    <a href="https://www.newswire.com/news/2023-uc-berkeley-ai-summit-generative-ai-hackathon-sees-high-schoolers-22166689" target="_blank">
+      <div class="trophy-container">
+        <!-- Trophy Icon -->
+        <i class="fa fa-trophy trophy-icon"></i>
+        
+        <!-- Full-Size Hover Image -->
+        <img src="images\VHS PREDICTION IMAGES\Screenshot 2024-09-17 225104.png" alt="UC Berkeley AI Hackathon Recognition" class="hover-image">
+      </div>
+    </a>
+  </li>
+
+  <!-- FontAwesome CDN for trophy icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
 	</ul> <!-- /intro-social -->      	
 
    </section> <!-- /intro -->
